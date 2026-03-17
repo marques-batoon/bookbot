@@ -10,3 +10,6 @@ def char_count(text):
         else:
             char_count[char] = 1
     return char_count
+
+def sort_on(items):
+    return items["num"]
